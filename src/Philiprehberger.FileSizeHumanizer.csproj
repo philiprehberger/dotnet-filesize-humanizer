@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Philiprehberger.FileSizeHumanizer</PackageId>
-    <Version>0.2.1</Version>
+    <Version>0.2.2</Version>
     <Authors>Philip Rehberger</Authors>
     <Description>Convert byte counts into human-readable sizes</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
