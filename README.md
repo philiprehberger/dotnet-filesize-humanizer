@@ -1,5 +1,9 @@
 # Philiprehberger.FileSizeHumanizer
 
+[![CI](https://github.com/philiprehberger/dotnet-filesize-humanizer/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-filesize-humanizer/actions/workflows/ci.yml)
+[![NuGet](https://img.shields.io/nuget/v/Philiprehberger.FilesizeHumanizer.svg)](https://www.nuget.org/packages/Philiprehberger.FilesizeHumanizer)
+[![License](https://img.shields.io/github/license/philiprehberger/dotnet-filesize-humanizer)](LICENSE)
+
 Convert raw byte counts into readable file size strings like "1.5 KB" or "3.2 MB". Parse them back to bytes too.
 
 ## Install
