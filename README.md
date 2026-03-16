@@ -86,6 +86,12 @@ FileSize.TryParse("not a size", out _); // false
 | `Parse(string input)` | Parse a human-readable size string back to bytes. Throws `FormatException` on invalid input. |
 | `TryParse(string input, out long bytes)` | Non-throwing variant of `Parse`. Returns `true` on success. |
 
+## Development
+
+```bash
+dotnet build src/Philiprehberger.FileSizeHumanizer.csproj --configuration Release
+```
+
 ## License
 
 MIT
