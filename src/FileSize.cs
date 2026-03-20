@@ -1,11 +1,24 @@
 namespace Philiprehberger.FileSizeHumanizer;
 
+/// <summary>
+/// Specifies the unit standard for file size formatting.
+/// </summary>
 public enum SizeStandard
 {
+    /// <summary>
+    /// IEC binary standard using base 1024 (KiB, MiB, GiB, etc.).
+    /// </summary>
     Binary,
+
+    /// <summary>
+    /// SI decimal standard using base 1000 (KB, MB, GB, etc.).
+    /// </summary>
     SI
 }
 
+/// <summary>
+/// Provides methods to convert byte counts to human-readable strings and parse them back.
+/// </summary>
 public static class FileSize
 {
     private static readonly string[] LegacyUnits = ["B", "KB", "MB", "GB", "TB", "PB", "EB"];
