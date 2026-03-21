@@ -7,9 +7,9 @@
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>Philiprehberger.FileSizeHumanizer</PackageId>
-    <Version>0.2.3</Version>
+    <Version>0.2.4</Version>
     <Authors>Philip Rehberger</Authors>
-    <Description>Convert byte counts into human-readable sizes</Description>
+    <Description>Convert byte counts into human-readable file size strings and parse them back to bytes.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/philiprehberger/dotnet-filesize-humanizer</RepositoryUrl>
     <RepositoryType>git</RepositoryType>

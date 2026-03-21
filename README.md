@@ -4,7 +4,7 @@
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.FileSizeHumanizer.svg)](https://www.nuget.org/packages/Philiprehberger.FileSizeHumanizer)
 [![License](https://img.shields.io/github/license/philiprehberger/dotnet-filesize-humanizer)](LICENSE)
 
-Convert raw byte counts into readable file size strings like "1.5 KB" or "3.2 MB". Parse them back to bytes too.
+Convert byte counts into human-readable file size strings and parse them back to bytes.
 
 ## Installation
 

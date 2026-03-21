@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.4 (2026-03-21)
+
+- Align README and csproj descriptions
+
 ## 0.2.3
 
 - Add Development section to README
