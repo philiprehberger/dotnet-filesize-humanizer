@@ -7,7 +7,7 @@
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>Philiprehberger.FileSizeHumanizer</PackageId>
-    <Version>0.2.4</Version>
+    <Version>0.2.5</Version>
     <Authors>Philip Rehberger</Authors>
     <Description>Convert byte counts into human-readable file size strings and parse them back to bytes.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
