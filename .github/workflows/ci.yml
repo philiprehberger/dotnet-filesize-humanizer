@@ -17,6 +17,7 @@ jobs:
           dotnet-version: '8.0.x'
       - run: dotnet restore src/Philiprehberger.FileSizeHumanizer.csproj
       - run: dotnet build src/Philiprehberger.FileSizeHumanizer.csproj --configuration Release --no-restore
+      - run: dotnet test tests/Philiprehberger.FileSizeHumanizer.Tests/Philiprehberger.FileSizeHumanizer.Tests.csproj --configuration Release --no-restore
 
   publish:
     needs: build
