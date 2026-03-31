@@ -2,8 +2,7 @@
 
 [![CI](https://github.com/philiprehberger/dotnet-filesize-humanizer/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-filesize-humanizer/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.FileSizeHumanizer.svg)](https://www.nuget.org/packages/Philiprehberger.FileSizeHumanizer)
-[![License](https://img.shields.io/github/license/philiprehberger/dotnet-filesize-humanizer)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/dotnet-filesize-humanizer)](https://github.com/philiprehberger/dotnet-filesize-humanizer/commits/main)
 
 Convert byte counts into human-readable file size strings and parse them back to bytes.
 
@@ -93,6 +92,24 @@ FileSize.TryParse("not a size", out _); // false
 dotnet build src/Philiprehberger.FileSizeHumanizer.csproj --configuration Release
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/dotnet-filesize-humanizer)
+
+🐛 [Report issues](https://github.com/philiprehberger/dotnet-filesize-humanizer/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/dotnet-filesize-humanizer/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
